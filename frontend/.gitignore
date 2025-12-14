@@ -20,3 +20,4 @@ eas.json
 /android/app/src/main/res/drawable/*
 !/android/app/src/main/res/drawable/node_modules
 *.key
+*.apk

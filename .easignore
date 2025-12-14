@@ -6,6 +6,7 @@ config_script.py
 get_ip.py
 license
 README.md
+*.apk
 
 backend/
 frontend/.expo/
@@ -29,6 +30,7 @@ frontend/yarn-error.log
 frontend/.git/
 frontend/.hg/
 frontend/.svn/
+frontend/*.apk
 frontend/*.jks
 frontend/*.p12
 frontend/*.keystore
@@ -63,6 +65,7 @@ frontend\.git\
 frontend\.hg\
 frontend\.svn\
 frontend\
+frontend\*.apk
 frontend\*.jks
 frontend\*.p12
 frontend\*.keystore
