@@ -36,6 +36,7 @@ yarn-error.log
 .idea/
 .vscode/
 ios/
+*.py
 
 backend/
 frontend/.expo/
