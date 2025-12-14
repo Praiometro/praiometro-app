@@ -32,22 +32,22 @@ Para o front-end, assume-se que você possui Python 3, JDK 17, Android Studio, N
     
     Para que o aplicativo funcione corretamente, você precisa inserir sua chave da API do Google Maps.
     
-    1.  Localize o arquivo `exemplo.env.base` na pasta do frontend.
+    1.  Localize o arquivo `eas.base` na pasta do frontend.
     2.  Abra o arquivo e substitua TODAS instâncias `INSERT_KEY_HERE` pela sua chave da API do Google Maps. Faça o mesmo para o Web Client ID. 
-    4.  Renomeie o arquivo `exemplo.eas.json.base` para `eas.json`.
+    4.  Renomeie o arquivo `eas.json.base` para `eas.json`.
     
     ### 2. Renomear app.json
     
-    1.  Localize o arquivo `exemplo.app.base` na pasta do frontend.
+    1.  Localize o arquivo `app.base` na pasta do frontend.
     2.  Abra o arquivo e substitua TODAS instâncias `INSERT_KEY_HERE` pela sua chave da API do Google Maps. Faça o mesmo para o Web Client ID. 
-    3.  Renomeie o arquivo `exemplo.app.json.base` para `eas.json`.
+    3.  Renomeie o arquivo `app.json.base` para `eas.json`.
     
     
-    ### 3. Renomear exemplo.AndroidManifest.xml
+    ### 3. Renomear AndroidManifest.xml
     
-    1.  Localize o arquivo `exemplo.AndroidManifest.xml` na pasta frontend\android\app\src\main.
+    1.  Localize o arquivo `AndroidManifest.xml` na pasta frontend\android\app\src\main.
     2.  Caso você vá fazer uma prebuild, substitua `@string/google_maps_api_key` pela sua key da API do Google Maps. Caso vá fazer build com `eas build`, mantenha do jeito que está. Lembre-se de mudar esse valor a depender de se você vai fazer build do APK ou prebuild.
-    3.  Renomeie o arquivo `exemplo.AndroidManifest.xml` para `AndroidManifest.xml`.
+    3.  Renomeie o arquivo `AndroidManifest.xml` para `AndroidManifest.xml`.
     
     
     ### 4. Fazer git restore de ambos arquivos
@@ -55,9 +55,9 @@ Para o front-end, assume-se que você possui Python 3, JDK 17, Android Studio, N
     Para evitar que você sem querer apague os templates de app.json e eas.json num commit, faça git restore dos arquivos
     
     ```bash
-        git restore exemplo.app.json.base
-        git restore exemplo.eas.json.base
-        git restore android\app\src\main\exemplo.AndroidManifest.xml
+        git restore app.json.base
+        git restore eas.json.base
+        git restore android\app\src\main\AndroidManifest.xml
     ```
 
     ### 5. Colocar o IP da máquina nas configurações de rede.

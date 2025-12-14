@@ -20,19 +20,16 @@ client = MongoClient(MONGO_URI)
 db = client["praiometro"]
 colecao_votos = db["votos"]
 
-# Configurações
 PONTOS_FILE = os.getenv("PONTOS_FILE", "pontos.json")  # arquivo gerado pelo praiômetro
 CACHE = {}  # cache em memória dos pontos
 FILE_HASH = None  # hash MD5 do arquivo carregado
 
-# Inicializa FastAPI
 app = FastAPI(
     title="Praio API",
     description="API para fornecer dados meteorológicos e marítimos de pontos de coleta de praias com cache eficiente",
     version="1.2.0"
 )
 
-# Permite chamadas do app React Native
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -64,69 +61,9 @@ async def load_cache():
     except Exception as e:
         print(f"[Cache] Erro ao carregar {PONTOS_FILE}: {e}")
 
-#async def schedule_cache_refresh():
-#    #Atualiza o cache sempre que o relógio marcar X:02, verificando mudança de hash.
-#    #Se não mudou, tenta a cada 1 minuto até 5 vezes antes de desistir.
-#    while True:
-#        # calcula segundos até próxima hora em minuto 2
-#        agora = datetime.utcnow()
-#        next_time = (agora + timedelta(hours=1)).replace(minute=2, second=0, microsecond=0)
-#        delta = (next_time - agora).total_seconds()
-#        await asyncio.sleep(delta)
-#
-#        # tentativa inicial
-#        old_hash = FILE_HASH
-#        new_hash = await compute_file_hash()
-#        if new_hash and new_hash != old_hash:
-#            await load_cache()
-#        else:
-#            # retentativas a cada minuto, até 5
-#            for attempt in range(1, 6):
-#                print(f"[Cache] Sem mudança detectada, tentativa {attempt} de 5 em 1 minuto")
-#                await asyncio.sleep(60)
-#                new_hash = await compute_file_hash()
-#                if new_hash and new_hash != old_hash:
-#                    await load_cache()
-#                    break
-#            else:
-#                print(f"[Cache] Desistindo após 5 tentativas, mantendo cache atual")
-
 @app.on_event("startup")
 async def on_startup():
-    # Carrega cache inicialmente e agenda atualização
-    # gerar_api_js()
     await load_cache()
-    #asyncio.create_task(schedule_cache_refresh())
-
-#def gerar_api_js():
-#    def obter_ip_lan():
-#        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-#        try:
-#            s.connect(("8.8.8.8", 80))
-#            return s.getsockname()[0]
-#        except Exception:
-#            return "127.0.0.1"
-#        finally:
-#            s.close()
-#
-#    ip_lan = obter_ip_lan()
-#    caminho_api_js = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "frontend", "src", "api", "api.js"))
-#
-#    conteudo = f"""import axios from 'axios';
-#
-#const API_URL = 'http://{ip_lan}:8000';
-#
-#export const api = axios.create({{
-#    baseURL: API_URL
-#}})"""
-#
-#    try:
-#        os.makedirs(os.path.dirname(caminho_api_js), exist_ok=True)
-#        with open(caminho_api_js, "w", encoding="utf-8") as f:
-#            f.write(conteudo)
-#        print(f"[Init] Arquivo api.js gerado com IP {ip_lan} em {caminho_api_js}")
-#    except Exception as e:
-#        print(f"[Init] Erro ao criar api.js: {e}")
 
 @app.post("/notificar-atualizacao", summary="Notifica a API que pontos.json foi atualizado")
 async def notificar_atualizacao():

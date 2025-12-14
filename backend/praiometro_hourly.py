@@ -10,11 +10,9 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 
-# Arquivos de configuração
 CAMINHO_PONTOS = "pontos.json"          # arquivo de pontos estáticos
 CAMINHO_PDF = "niteroi_historico.pdf"  # PDF com histórico de balneabilidade
 
-# Mapeamento de status para booleano
 MAPA_STATUS = {
     "Própria": True,
     "Imprópria": False

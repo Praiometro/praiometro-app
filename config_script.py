@@ -106,13 +106,13 @@ def main():
 
     # Primeiro: Criar app.json e eas.json se não existirem
     if not os.path.exists(app_json_path):
-        shutil.copy(os.path.join(frontend_dir, "exemplo.app.json.base"), app_json_path)
+        shutil.copy(os.path.join(frontend_dir, "app.json.base"), app_json_path)
         print("app.json criado.")
     else:
         print("app.json já existe.")
 
     if not os.path.exists(eas_json_path):
-        shutil.copy(os.path.join(frontend_dir, "exemplo.eas.json.base"), eas_json_path)
+        shutil.copy(os.path.join(frontend_dir, "eas.json.base"), eas_json_path)
         print("eas.json criado.")
         eas_json_created = True
     else:
@@ -120,14 +120,14 @@ def main():
 
     # Segundo: Criar AndroidManifest.xml e network_security_config.xml se não existirem
     if not os.path.exists(android_manifest_path):
-        shutil.copy(os.path.join(frontend_dir, "android", "app", "src", "main", "exemplo.AndroidManifest.xml"), android_manifest_path)
+        shutil.copy(os.path.join(frontend_dir, "android", "app", "src", "main", "AndroidManifest.xml.base"), android_manifest_path)
         print("AndroidManifest.xml criado.")
     else:
         print("AndroidManifest.xml já existe.")
 
     network_security_config_path = os.path.join(frontend_dir, "android", "app", "src", "main", "res", "xml", "network_security_config.xml")
     if not os.path.exists(network_security_config_path):
-        exemplo_path = os.path.join(frontend_dir, "android", "app", "src", "main", "res", "xml", "exemplo_network_security_config.xml")
+        exemplo_path = os.path.join(frontend_dir, "android", "app", "src", "main", "res", "xml", "network_security_config.xml.base")
         if os.path.exists(exemplo_path):
             shutil.copy(exemplo_path, network_security_config_path)
             print("network_security_config.xml criado.")

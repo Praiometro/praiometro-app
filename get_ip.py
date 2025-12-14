@@ -16,22 +16,17 @@ def update_network_security_config(ip_address, config_file_path):
         with open(config_file_path, 'r') as f:
             content = f.read()
 
-        # Check if the IP address already exists
         if f"<domain includeSubdomains=\"true\">{ip_address}</domain>" in content:
             print(f"IP address {ip_address} already exists in {config_file_path}")
             return
 
-        # Find the closing tag of domain-config with its indentation
-        # We assume the closing tag is indented by 4 spaces based on the corrected XML
         closing_tag_with_indent = "    </domain-config>"
         if closing_tag_with_indent not in content:
             print(f"Error: {closing_tag_with_indent} not found in {config_file_path}")
             return
 
-        # Construct the new domain entry with correct 8-space indentation
         new_domain_entry = f"        <domain includeSubdomains=\"true\">{ip_address}</domain>\n"
 
-        # Insert the new domain entry before the closing tag, preserving its indentation
         modified_content = content.replace(closing_tag_with_indent, new_domain_entry + closing_tag_with_indent)
 
         with open(config_file_path, 'w') as f:
