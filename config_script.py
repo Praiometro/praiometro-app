@@ -96,7 +96,7 @@ def handle_api_ip(frontend_dir):
         return None
 
 def main():
-    frontend_dir = "."
+    frontend_dir = "frontend"
     app_json_path = os.path.join(frontend_dir, "app.json")
     eas_json_path = os.path.join(frontend_dir, "eas.json")
     android_manifest_path = os.path.join(frontend_dir, "android", "app", "src", "main", "AndroidManifest.xml")

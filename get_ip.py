@@ -43,5 +43,5 @@ if __name__ == "__main__":
     ip = obter_ip_lan()
     print(f"Obtained IP address: {ip}")
     
-    config_file = "./android/app/src/main/res/xml/network_security_config.xml"
+    config_file = "./frontend/android/app/src/main/res/xml/network_security_config.xml"
     update_network_security_config(ip, config_file)
