@@ -1,11 +1,17 @@
 import { View, Text } from 'react-native';
 import Foundation from '@expo/vector-icons/Foundation';
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
+import { LinearGradient } from 'expo-linear-gradient';
 import styles from './styles';
 
 export default function InfoRectangle({title, description = "Sem informações", children, danger = false, safe = false}) {
   return (
-    <View style={styles.container}>
+    <LinearGradient
+        colors={['rgba(255, 255, 255, 0.2)', 'rgba(255, 255, 255, 0.05)']}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={styles.container}
+    >
       <View style={styles.content}>
         {children}
         <View style={styles.textContainer}>
@@ -25,6 +31,6 @@ export default function InfoRectangle({title, description = "Sem informações",
           <Text style={styles.alertText}>Seguro para banhistas!</Text>
         </View>
       )}
-    </View>
+    </LinearGradient>
   );
 }

@@ -30,10 +30,10 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         gap: 16,
     },
-    smallInfoRectanglesContainer: {
+    cardsRow: {
         flexDirection: 'row',
         width: '85%',
-        gap: 16,
+        gap: 12,
     },
     mapsButton: {
         backgroundColor: '#FAFAFA',

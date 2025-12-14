@@ -2,12 +2,14 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
     container: {
-        backgroundColor: '#FAFAFA',
-        borderRadius: 12,
+        // backgroundColor removed, handled by LinearGradient
+        borderRadius: 16,
         padding: 16,
         flexGrow: 1,
         height: 160,
         flexDirection: 'column',
+        borderWidth: 1,
+        borderColor: 'rgba(255, 255, 255, 0.3)',
     },
     headerUmidade: {
         flexDirection: 'row',
@@ -21,30 +23,26 @@ export default StyleSheet.create({
     },
     headerTitle: {
         fontSize: 14,
-        fontWeight: '500',
-        color: '#454A4C',
-    },
-    infoContainer: {
-        flexDirection: 'column',
-        gap: 10,
-    },  
-    mainText: {
-        fontSize: 40,
-        fontWeight: '500',
-        color: '#015486',
-        textAlign: 'left',
-    },
-    description: {
-        fontSize: 11,
-        fontWeight: '400',
-        color: '#454A4C',
-        textAlign: 'left',
-        marginTop: 6,
-        width: 120,
+        fontWeight: '600',
+        color: 'rgba(147, 197, 253, 1)', // blue-200
     },
     infoContainer: {
         flexDirection: 'column',
         gap: 8,
         marginTop: 8,
+    },  
+    mainText: {
+        fontSize: 40,
+        fontWeight: '700',
+        color: '#FFFFFF',
+        textAlign: 'left',
+    },
+    description: {
+        fontSize: 11,
+        fontWeight: '400',
+        color: 'rgba(147, 197, 253, 0.8)',
+        textAlign: 'left',
+        marginTop: 6,
+        width: 120,
     },
 });

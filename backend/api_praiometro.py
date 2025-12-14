@@ -37,7 +37,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
     allow_credentials=True,
-    allow_methods=["GET", "OPTIONS"],
+    allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
 
@@ -153,7 +153,10 @@ def listar_pontos():
                 "coordenadas": info.get("coordenadas_decimais"),
                 "coordenadas_terra": info.get("coordenadas_terra_decimais"),
                 "ultima_leitura": info.get("leitura_atual", {}).get("timestamp"),
-                "specific_location": info.get("specific_location")
+                "specific_location": info.get("specific_location"),
+                "balneabilidade": info.get("leitura_atual", {}).get("balneabilidade"),
+                "uv_index": info.get("leitura_atual", {}).get("uv_index"),
+                "wave_height": info.get("leitura_atual", {}).get("wave_height"),
             }
             for codigo, info in CACHE.items()
         ]
@@ -215,6 +218,17 @@ def verificar_token_google(token: str) -> str:
         return idinfo["sub"]  # sub é o user_id único do Google
     except Exception:
         raise HTTPException(status_code=401, detail="Token Google inválido")
+
+@app.get("/pontos/{codigo}/previsao", summary="Previsão horária das próximas 24h")
+def obter_previsao(codigo: str):
+    """Retorna a previsão de temperatura, chance de chuva e tipo de clima para as próximas 24 horas."""
+    if codigo not in CACHE:
+        raise HTTPException(status_code=404, detail="Ponto não encontrado")
+    
+    leitura = CACHE[codigo].get("leitura_atual", {})
+    previsao = leitura.get("previsao_24h", [])
+    
+    return {"codigo": codigo, "previsao": previsao}
 
 @app.get("/pontos/{codigo}/avaliacao", summary="Médias de avaliação da praia")
 def obter_avaliacao_media(codigo: str):

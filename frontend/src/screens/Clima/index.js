@@ -4,11 +4,13 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import InfoSquare from '../../components/InfoSquare';
 import InfoRectangle from '../../components/InfoRectangle';
-import UVInfoRectangle from '../../components/UVInfoRectangle';
+import UVInfoPanel from '../../components/UVInfoPanel';
+import WeatherForecast from '../../components/WeatherForecast';
+import WindInfoCard from '../../components/WindInfoCard';
 import { useEffect, useState } from 'react';
 import { api } from '../../api/api';
 import WeatherIcon from '../../components/WeatherIcon';
-import { getHumidityMessage, getSensationMessage, getUVIndexLevel, getUVIndexMessage } from '../../helpers/weatherMessages';
+import { getHumidityMessage, getSensationMessage } from '../../helpers/weatherMessages';
 import { Feather, MaterialCommunityIcons } from '@expo/vector-icons';
 import { formatDate } from '../../helpers/formatDate';
 import { formatHour } from '../../helpers/formatHour';
@@ -38,7 +40,7 @@ export default function Clima() {
     if (loading) {
         return (
             <View style={[styles.fullScreen, { justifyContent: 'center', alignItems: 'center' }]}>
-                <Text style={{ color: '#015486', fontSize: 18 }}>Carregando...</Text>
+                <Text style={{ color: '#FFFFFF', fontSize: 18 }}>Carregando...</Text>
             </View>
         );
     }
@@ -89,7 +91,8 @@ export default function Clima() {
         <ScrollView
             bounces={false}
             overScrollMode='never'
-            contentContainerStyle={styles.container}
+            style={styles.scrollView}
+            contentContainerStyle={styles.contentContainer}
         >
             <View>
                 <Text style={styles.headerText}>Niterói, Rio de Janeiro</Text>
@@ -102,21 +105,25 @@ export default function Clima() {
                     danger={isDangerous}
                     safe={isSafe}
                 >
-                    <WeatherIcon weatherCode={weather.weather_code} size={55} color="#015486" />
+                    <WeatherIcon weatherCode={weather.weather_code} size={55} color="#93C5FD" />
                 </InfoRectangle>
                 <View style={styles.squaresContainer}>
                     <InfoSquare title='Umidade' info={`${weather.relative_humidity_2m}%`} description={getHumidityMessage(weather.relative_humidity_2m)}>
-                        <Ionicons name="water-sharp" size={16} color="#015486" />
+                        <Ionicons name="water-sharp" size={16} color="#93C5FD" />
                     </InfoSquare>
                     <InfoSquare title='Sensação' info={`${Math.trunc(weather.apparent_temperature)}°`} description={getSensationMessage(weather.apparent_temperature)}>
-                        <FontAwesome6 name="temperature-full" size={16} color="#015486" />
+                        <FontAwesome6 name="temperature-full" size={16} color="#93C5FD" />
                     </InfoSquare>
                 </View>
-                <UVInfoRectangle
-                    uvIndex={weather.uv_index}
-                    uvLevel={getUVIndexLevel(weather.uv_index)}
-                    uvRecommentadions={getUVIndexMessage(weather.uv_index)}
-                />
+                <View style={styles.cardsRow}>
+                    <UVInfoPanel uvIndex={weather.uv_index} style={styles.flexCard} showBar={false} />
+                    <WindInfoCard 
+                        windSpeed={weather.wind_speed_10m}
+                        windDirection={weather.wind_direction_10m}
+                        compact={true}
+                    />
+                </View>
+                <WeatherForecast previsao={weather.previsao_24h} />
             </View>
             <Text style={styles.update}>
                 <MaterialCommunityIcons name="update" size={12} color="#e7e9edff" />{' '}

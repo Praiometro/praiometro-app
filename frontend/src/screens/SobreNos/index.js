@@ -16,14 +16,14 @@ export default function SobreNos() {
                     style={styles.instagramButton}
                     onPress={() => Linking.openURL('https://www.instagram.com/praiometronit')}
                 >
-                    <FontAwesome name="instagram" size={24} color="#015486" style={{ marginRight: 10 }} />
+                    <FontAwesome name="instagram" size={24} color="#FFFFFF" style={{ marginRight: 10 }} />
                     <Text style={styles.instagramButtonText}>Instagram</Text>
                 </TouchableOpacity>
                 <TouchableOpacity
                     style={styles.emailButton}
                     onPress={() => Linking.openURL('mailto:naotemosemail@gmail.com')}
                 >
-                    <FontAwesome name="envelope" size={24} color="#015486" style={{ marginRight: 10 }} />
+                    <FontAwesome name="envelope" size={24} color="#FFFFFF" style={{ marginRight: 10 }} />
                     <Text style={styles.emailButtonText}>Email</Text>
                 </TouchableOpacity>
             </View>

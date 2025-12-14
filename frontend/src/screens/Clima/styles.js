@@ -1,9 +1,13 @@
 import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
-    container: {
-        backgroundColor: '#015486',
+    scrollView: {
         flex: 1,
+        backgroundColor: '#015486',
+    },
+    contentContainer: {
+        paddingBottom: 40,
+        flexGrow: 1,
     },
     headerText: {
         color: '#FFFFFF',
@@ -32,6 +36,17 @@ export default StyleSheet.create({
         gap: 16,
         width: '85%',
     },
+    cardsRow: {
+        flexDirection: 'row',
+        gap: 16,
+        width: '85%',
+        justifyContent: 'space-between',
+    },
+    flexCard: {
+        flex: 1,
+        width: 'auto', // Override fixed width
+        minHeight: 180, // Ensure enough height for UV content stacked
+    },
     fullScreen: {
         flex: 1,
         backgroundColor: '#015486',
@@ -42,5 +57,6 @@ export default StyleSheet.create({
         fontWeight: '400',
         textAlign: 'center',
         marginTop: 16,
+        marginBottom: 20,
     },
 })

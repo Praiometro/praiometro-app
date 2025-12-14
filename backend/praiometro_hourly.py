@@ -1,4 +1,5 @@
 import json
+import re
 import sys
 import datetime
 import time
@@ -46,14 +47,51 @@ def carregar_pontos(caminho=CAMINHO_PONTOS):
 def baixar_relatorio_inea(caminho_pdf=CAMINHO_PDF):
     url_pagina = "https://www.inea.rj.gov.br/niteroi/"
     sessao = criar_sessao_com_retries()
+    sessao.headers.update({
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    })
     
     try:
-        resposta = sessao.get(url_pagina, timeout=10)
+        resposta = sessao.get(url_pagina, timeout=30)
         resposta.raise_for_status()
         soup = BeautifulSoup(resposta.text, "html.parser")
 
-        # encontra link que contém o texto do último boletim
-        link = soup.find("a", string=lambda t: t and "último boletim" in t.lower())
+        # Tenta encontrar links que são apenas anos (ex: "2024", "2025") e pega o maior
+        link = None
+        anos_encontrados = []
+        for a_tag in soup.find_all("a", href=True):
+            texto = a_tag.get_text(" ", strip=True)
+            # Verifica se o texto é exatamente um ano (4 dígitos)
+            if re.match(r'^\d{4}$', texto):
+                try:
+                    ano = int(texto)
+                    anos_encontrados.append((ano, a_tag))
+                except ValueError:
+                    pass
+        
+        if anos_encontrados:
+            # Ordena pelo ano decrescente (maior primeiro)
+            anos_encontrados.sort(key=lambda x: x[0], reverse=True)
+            link = anos_encontrados[0][1]
+            print(f"Link selecionado pelo ano mais recente: {anos_encontrados[0][0]}")
+        
+        # Se não encontrar ano, tenta "último boletim"
+        if not link:
+            for a_tag in soup.find_all("a", href=True):
+                if "último boletim" in a_tag.get_text(" ", strip=True).lower():
+                    link = a_tag
+                    break
+        
+        if not link:
+            # Fallback: heurística genérica
+            print("Links específicos não encontrados. Tentando heurística...")
+            for a_tag in soup.find_all("a", href=True):
+                texto = a_tag.get_text(" ", strip=True).lower()
+                href = a_tag['href'].lower()
+                if "boletim" in texto and ".pdf" in href:
+                    link = a_tag
+                    break
+
         if not link:
             print("Link do boletim não encontrado.")
             return
@@ -172,6 +210,23 @@ def buscar_dados(lat, lon):
             if now_idx is not None and now_idx >= 8:
                 ult_precip = data_met["precipitation"][now_idx-8:now_idx]
                 choveu_8_horas = any(p > 0 for p in ult_precip)
+        
+        # Extrai previsão das próximas 24 horas
+        previsao_24h = []
+        temps = data_met.get("temperature_2m", [])
+        probs = data_met.get("precipitation_probability", [])
+        codes = data_met.get("weather_code", [])
+        
+        for i in range(24):
+            hora_idx = idx + i
+            if hora_idx < len(time_list):
+                previsao_24h.append({
+                    "hora": time_list[hora_idx],
+                    "temperatura": temps[hora_idx] if hora_idx < len(temps) else None,
+                    "precipitacao_prob": probs[hora_idx] if hora_idx < len(probs) else None,
+                    "weather_code": codes[hora_idx] if hora_idx < len(codes) else None
+                })
+        
         # coleta valores
         return {
             "timestamp": key,
@@ -187,11 +242,12 @@ def buscar_dados(lat, lon):
             "wave_height": data_mar.get("wave_height", [None])[idx],
             "wave_period": data_mar.get("wave_period", [None])[idx],
             "weather_code": data_met.get("weather_code", [None])[idx],
-            "choveu_8_horas": choveu_8_horas
+            "choveu_8_horas": choveu_8_horas,
+            "previsao_24h": previsao_24h
         }
     else:
         print(f"Hora {key} não encontrada nos dados.")
-        return {"timestamp": key}
+        return {"timestamp": key, "previsao_24h": []}
 
 def atualizar():
     # carrega pontos estáticos e balneabilidade
@@ -248,6 +304,10 @@ def atualizar():
 
 # Executa atualização imediata ao iniciar
 atualizar()
+
+if len(sys.argv) > 1 and sys.argv[1] == "once":
+    print("Modo 'once': encerrando após primeira atualização.")
+    sys.exit(0)
 
 # configura agendamento a cada hora
 schedule.every().hour.at(":00").do(atualizar)

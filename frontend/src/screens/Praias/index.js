@@ -101,6 +101,8 @@ export default function Praias({ navigation }) {
                                 especificLocation={Array.isArray(beach.specific_location) ? beach.specific_location[0] : 'Sem localização específica'}
                                 id={beach.codigo}
                                 navigation={navigation}
+                                balneabilidade={beach.balneabilidade}
+                                uvIndex={beach.uv_index}
                             />
                         ))
                     ) : (

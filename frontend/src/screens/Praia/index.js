@@ -13,14 +13,7 @@ import sossego from '../../../assets/images/praias/sossego.jpg';
 import itaipu from '../../../assets/images/praias/itaipu.jpg';
 import itacoatiara from '../../../assets/images/praias/itacoatiara.jpg';
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
-import Entypo from '@expo/vector-icons/Entypo';
-import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import styles from './styles';
-import InfoRectangle from '../../components/InfoRectangle';
-import SmallInfoRectangle from '../../components/SmallInfoRectangle';
-import Ionicons from '@expo/vector-icons/Ionicons';
-import Feather from '@expo/vector-icons/Feather';
-import Fontisto from '@expo/vector-icons/Fontisto';
 import { useRoute } from '@react-navigation/native';
 import { useEffect, useState, useCallback } from 'react';
 import { api } from '../../api/api';
@@ -30,6 +23,12 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { formatHour } from '../../helpers/formatHour';
 import { formatDate } from '../../helpers/formatDate';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import Fontisto from '@expo/vector-icons/Fontisto';
+import BalneabilityPanel from '../../components/BalneabilityPanel';
+import UVInfoPanel from '../../components/UVInfoPanel';
+import WeatherForecast from '../../components/WeatherForecast';
+import WavesInfoCard from '../../components/WavesInfoCard';
+import WindInfoCard from '../../components/WindInfoCard';
 
 function getBeachImage(beachName) {
     switch (beachName) {
@@ -195,23 +194,22 @@ export default function Praia() {
                         }}
                     />
                 </View>
-                <InfoRectangle title="Qualidade da água do mar" description={beach.leitura_atual?.balneabilidade ? "Própria para banho!" : "Imprópria para banho!"}>
-                    {beach.leitura_atual.balneabilidade
-                        ? <Entypo name="emoji-happy" size={55} color="#015486" />
-                        : <Entypo name="emoji-sad" size={55} color="#015486" />
-                    }
-                </InfoRectangle>
-                <InfoRectangle title="Altura da onda" description={`${beach.leitura_atual?.wave_height ?? '-'} metros`} danger={beach.leitura_atual?.wave_height >= 2} safe={beach.leitura_atual?.wave_height < 2}>
-                    <MaterialIcons name="waves" size={55} color="#015486"/>
-                </InfoRectangle>
-                <View style={styles.smallInfoRectanglesContainer}>
-                    <SmallInfoRectangle title="Período das ondas" description={`${beach.leitura_atual?.wave_period ?? '-'}s`}>
-                        <Ionicons name="timer" size={55} color="#015486" />
-                    </SmallInfoRectangle>
-                    <SmallInfoRectangle title="Vento" description={`${beach.leitura_atual?.wind_speed_10m ?? '-'}km/h`}>
-                        <Feather name="wind" size={55} color="#015486" />
-                    </SmallInfoRectangle>
-                </View>      
+                <BalneabilityPanel 
+                    balneabilidade={beach.leitura_atual?.balneabilidade} 
+                    timestamp={beach.leitura_atual?.timestamp} 
+                />
+                <WeatherForecast previsao={beach.leitura_atual?.previsao_24h} />
+                <View style={styles.cardsRow}>
+                    <WavesInfoCard 
+                        waveHeight={beach.leitura_atual?.wave_height} 
+                        wavePeriod={beach.leitura_atual?.wave_period} 
+                    />
+                    <WindInfoCard 
+                        windSpeed={beach.leitura_atual?.wind_speed_10m} 
+                        windDirection={beach.leitura_atual?.wind_direction_10m} 
+                    />
+                </View>
+                <UVInfoPanel uvIndex={beach.leitura_atual?.uv_index} />      
                 <FeedbackSection averageRatings={averageRatings} onPress={() => setModalVisible(true)}/>
                 <TouchableOpacity
                     style={styles.mapsButton}

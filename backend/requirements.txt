@@ -6,3 +6,4 @@ google-auth
 schedule
 pdfplumber
 requests
+bs4

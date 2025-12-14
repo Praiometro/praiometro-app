@@ -17,20 +17,166 @@
             -43.136078
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.4,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 28.0,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 0.84,
-            "wave_period": 6.05,
-            "weather_code": 3,
-            "choveu_8_horas": false,
+            "relative_humidity_2m": 66,
+            "apparent_temperature": 31.4,
+            "wind_speed_10m": 7.0,
+            "wind_direction_10m": 102,
+            "uv_index": 0.05,
+            "wave_height": 0.5,
+            "wave_period": 9.35,
+            "weather_code": 2,
+            "choveu_8_horas": true,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 28.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.9,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 31.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 32.7,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 33.7,
+                    "precipitacao_prob": 23,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 34.3,
+                    "precipitacao_prob": 48,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 32.7,
+                    "precipitacao_prob": 50,
+                    "weather_code": 95
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 32.0,
+                    "precipitacao_prob": 55,
+                    "weather_code": 80
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 32.0,
+                    "precipitacao_prob": 48,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 30.5,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.6,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -59,20 +205,166 @@
             -43.130129
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.0,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.8,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 74,
-            "apparent_temperature": 25.6,
-            "wind_speed_10m": 13.0,
-            "wind_direction_10m": 96,
-            "uv_index": 0.0,
-            "wave_height": 0.84,
-            "wave_period": 6.05,
-            "weather_code": 3,
-            "choveu_8_horas": false,
+            "relative_humidity_2m": 66,
+            "apparent_temperature": 31.1,
+            "wind_speed_10m": 7.0,
+            "wind_direction_10m": 102,
+            "uv_index": 0.05,
+            "wave_height": 0.5,
+            "wave_period": 9.35,
+            "weather_code": 2,
+            "choveu_8_horas": true,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.8,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.9,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 31.1,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 32.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 33.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 34.1,
+                    "precipitacao_prob": 48,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 32.5,
+                    "precipitacao_prob": 50,
+                    "weather_code": 95
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.8,
+                    "precipitacao_prob": 55,
+                    "weather_code": 80
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 31.8,
+                    "precipitacao_prob": 48,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 30.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.4,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -101,20 +393,166 @@
             -43.124309
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.1,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.9,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 74,
-            "apparent_temperature": 25.7,
-            "wind_speed_10m": 13.0,
-            "wind_direction_10m": 96,
-            "uv_index": 0.0,
-            "wave_height": 0.84,
-            "wave_period": 6.05,
-            "weather_code": 3,
-            "choveu_8_horas": false,
+            "relative_humidity_2m": 66,
+            "apparent_temperature": 31.2,
+            "wind_speed_10m": 7.0,
+            "wind_direction_10m": 102,
+            "uv_index": 0.05,
+            "wave_height": 0.5,
+            "wave_period": 9.35,
+            "weather_code": 2,
+            "choveu_8_horas": true,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.9,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.9,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.8,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.6,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 32.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 33.6,
+                    "precipitacao_prob": 23,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 34.2,
+                    "precipitacao_prob": 48,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 32.6,
+                    "precipitacao_prob": 50,
+                    "weather_code": 95
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.9,
+                    "precipitacao_prob": 55,
+                    "weather_code": 80
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 31.9,
+                    "precipitacao_prob": 48,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 31.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.5,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -143,20 +581,166 @@
             -43.12123
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.4,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 28.0,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 0.84,
-            "wave_period": 6.05,
-            "weather_code": 3,
-            "choveu_8_horas": false,
+            "relative_humidity_2m": 66,
+            "apparent_temperature": 31.4,
+            "wind_speed_10m": 7.0,
+            "wind_direction_10m": 102,
+            "uv_index": 0.05,
+            "wave_height": 0.5,
+            "wave_period": 9.35,
+            "weather_code": 2,
+            "choveu_8_horas": true,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 28.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.9,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 31.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 32.7,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 33.7,
+                    "precipitacao_prob": 23,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 34.3,
+                    "precipitacao_prob": 48,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 32.7,
+                    "precipitacao_prob": 50,
+                    "weather_code": 95
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 32.0,
+                    "precipitacao_prob": 55,
+                    "weather_code": 80
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 32.0,
+                    "precipitacao_prob": 48,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 30.5,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.6,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -185,20 +769,166 @@
             -43.117841
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.3,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.9,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.3,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 0.84,
-            "wave_period": 6.05,
-            "weather_code": 3,
-            "choveu_8_horas": false,
+            "relative_humidity_2m": 66,
+            "apparent_temperature": 31.2,
+            "wind_speed_10m": 7.0,
+            "wind_direction_10m": 102,
+            "uv_index": 0.05,
+            "wave_height": 0.5,
+            "wave_period": 9.35,
+            "weather_code": 2,
+            "choveu_8_horas": true,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.9,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.8,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.6,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 31.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 32.7,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 33.6,
+                    "precipitacao_prob": 23,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 34.3,
+                    "precipitacao_prob": 48,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 32.6,
+                    "precipitacao_prob": 50,
+                    "weather_code": 95
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 32.0,
+                    "precipitacao_prob": 55,
+                    "weather_code": 80
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 31.9,
+                    "precipitacao_prob": 48,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 31.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.5,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -209,7 +939,7 @@
             "tranquilidade": 3
         }
     },
-    "IC00": {
+    "IC000": {
         "nome": [
             "Praia de Icaraí"
         ],
@@ -227,21 +957,167 @@
             -43.116207
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.3,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 28.0,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 0.84,
-            "wave_period": 6.05,
-            "weather_code": 3,
-            "choveu_8_horas": false,
-            "balneabilidade": null
+            "relative_humidity_2m": 66,
+            "apparent_temperature": 31.3,
+            "wind_speed_10m": 7.0,
+            "wind_direction_10m": 102,
+            "uv_index": 0.05,
+            "wave_height": 0.5,
+            "wave_period": 9.35,
+            "weather_code": 2,
+            "choveu_8_horas": true,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 28.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.9,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 31.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 32.7,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 33.7,
+                    "precipitacao_prob": 23,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 34.3,
+                    "precipitacao_prob": 48,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 32.7,
+                    "precipitacao_prob": 50,
+                    "weather_code": 95
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 32.0,
+                    "precipitacao_prob": 55,
+                    "weather_code": 80
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 32.0,
+                    "precipitacao_prob": 48,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 30.5,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.6,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
+            "balneabilidade": true
         },
         "avaliacao_media": {
             "limpeza": 3,
@@ -269,21 +1145,167 @@
             -43.111768
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.4,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.5,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 0.84,
-            "wave_period": 6.05,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.6,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.5,
+            "wave_period": 9.35,
+            "weather_code": 2,
             "choveu_8_horas": false,
-            "balneabilidade": false
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.1,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
+            "balneabilidade": true
         },
         "avaliacao_media": {
             "limpeza": 4,
@@ -311,21 +1333,167 @@
             -43.109953
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.4,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.5,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 0.84,
-            "wave_period": 6.05,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.6,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.5,
+            "wave_period": 9.35,
+            "weather_code": 2,
             "choveu_8_horas": false,
-            "balneabilidade": false
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.1,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
+            "balneabilidade": true
         },
         "avaliacao_media": {
             "limpeza": 4,
@@ -353,20 +1521,166 @@
             -43.095355
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.3,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.4,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 0.84,
-            "wave_period": 6.05,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.5,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.5,
+            "wave_period": 9.35,
+            "weather_code": 2,
             "choveu_8_horas": false,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.4,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 26.9,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 28.9,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.1,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.3,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": false
         },
         "avaliacao_media": {
@@ -395,21 +1709,167 @@
             -43.094823
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.4,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.5,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 1.56,
-            "wave_period": 6.3,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.6,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
             "choveu_8_horas": false,
-            "balneabilidade": true
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.1,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
+            "balneabilidade": false
         },
         "avaliacao_media": {
             "limpeza": 2,
@@ -437,21 +1897,167 @@
             -43.094515
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.4,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.5,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 1.56,
-            "wave_period": 6.3,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.6,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
             "choveu_8_horas": false,
-            "balneabilidade": true
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.1,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
+            "balneabilidade": false
         },
         "avaliacao_media": {
             "limpeza": 2,
@@ -479,20 +2085,166 @@
             -43.095071
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.4,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.5,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 1.56,
-            "wave_period": 6.3,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.6,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
             "choveu_8_horas": false,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.1,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": false
         },
         "avaliacao_media": {
@@ -521,21 +2273,167 @@
             -43.098221
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.4,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.5,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 1.56,
-            "wave_period": 6.3,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.6,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
             "choveu_8_horas": false,
-            "balneabilidade": true
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.1,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
+            "balneabilidade": false
         },
         "avaliacao_media": {
             "limpeza": 5,
@@ -563,21 +2461,167 @@
             -43.105534
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.4,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.5,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 1.56,
-            "wave_period": 6.3,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.6,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
             "choveu_8_horas": false,
-            "balneabilidade": true
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.1,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
+            "balneabilidade": false
         },
         "avaliacao_media": {
             "limpeza": 2,
@@ -605,21 +2649,167 @@
             -43.113049
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.3,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.4,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 1.56,
-            "wave_period": 6.3,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.5,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
             "choveu_8_horas": false,
-            "balneabilidade": true
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.4,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 26.9,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 28.9,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.1,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.3,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
+            "balneabilidade": false
         },
         "avaliacao_media": {
             "limpeza": 1,
@@ -647,21 +2837,167 @@
             -43.116554
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.4,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 28.0,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 1.56,
-            "wave_period": 6.3,
-            "weather_code": 3,
-            "choveu_8_horas": false,
-            "balneabilidade": false
+            "relative_humidity_2m": 66,
+            "apparent_temperature": 31.4,
+            "wind_speed_10m": 7.0,
+            "wind_direction_10m": 102,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
+            "choveu_8_horas": true,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 28.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.9,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 31.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 32.7,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 33.7,
+                    "precipitacao_prob": 23,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 34.3,
+                    "precipitacao_prob": 48,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 32.7,
+                    "precipitacao_prob": 50,
+                    "weather_code": 95
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 32.0,
+                    "precipitacao_prob": 55,
+                    "weather_code": 80
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 32.0,
+                    "precipitacao_prob": 48,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 30.5,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.6,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
+            "balneabilidade": true
         },
         "avaliacao_media": {
             "limpeza": 5,
@@ -689,20 +3025,166 @@
             -43.122534
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.4,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 28.0,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 1.56,
-            "wave_period": 6.3,
-            "weather_code": 3,
-            "choveu_8_horas": false,
+            "relative_humidity_2m": 66,
+            "apparent_temperature": 31.4,
+            "wind_speed_10m": 7.0,
+            "wind_direction_10m": 102,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
+            "choveu_8_horas": true,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 28.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.9,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 31.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 32.7,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 33.7,
+                    "precipitacao_prob": 23,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 34.3,
+                    "precipitacao_prob": 48,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 32.7,
+                    "precipitacao_prob": 50,
+                    "weather_code": 95
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 32.0,
+                    "precipitacao_prob": 55,
+                    "weather_code": 80
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 32.0,
+                    "precipitacao_prob": 48,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 30.5,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.6,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -731,20 +3213,166 @@
             -43.12268
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.4,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 28.0,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 69,
-            "apparent_temperature": 26.4,
-            "wind_speed_10m": 6.9,
-            "wind_direction_10m": 99,
-            "uv_index": 0.0,
-            "wave_height": 1.56,
-            "wave_period": 6.3,
-            "weather_code": 3,
-            "choveu_8_horas": false,
+            "relative_humidity_2m": 66,
+            "apparent_temperature": 31.4,
+            "wind_speed_10m": 7.0,
+            "wind_direction_10m": 102,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
+            "choveu_8_horas": true,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 28.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.9,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 31.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 32.7,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 33.7,
+                    "precipitacao_prob": 23,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 34.3,
+                    "precipitacao_prob": 48,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 32.7,
+                    "precipitacao_prob": 50,
+                    "weather_code": 95
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 32.0,
+                    "precipitacao_prob": 55,
+                    "weather_code": 80
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 32.0,
+                    "precipitacao_prob": 48,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 30.5,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.6,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -775,20 +3403,166 @@
             -43.098123
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.3,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.5,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
             "relative_humidity_2m": 72,
-            "apparent_temperature": 26.2,
-            "wind_speed_10m": 9.8,
-            "wind_direction_10m": 96,
-            "uv_index": 0.0,
-            "wave_height": 1.56,
-            "wave_period": 6.3,
-            "weather_code": 3,
+            "apparent_temperature": 31.6,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
             "choveu_8_horas": false,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.1,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -817,20 +3591,166 @@
             -43.095542
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.3,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.5,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
             "relative_humidity_2m": 72,
-            "apparent_temperature": 26.2,
-            "wind_speed_10m": 9.8,
-            "wind_direction_10m": 96,
-            "uv_index": 0.0,
-            "wave_height": 1.56,
-            "wave_period": 6.3,
-            "weather_code": 3,
+            "apparent_temperature": 31.6,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
             "choveu_8_horas": false,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.1,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -859,20 +3779,166 @@
             -43.087731
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.3,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.5,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
             "relative_humidity_2m": 72,
-            "apparent_temperature": 26.2,
-            "wind_speed_10m": 9.8,
-            "wind_direction_10m": 96,
-            "uv_index": 0.0,
-            "wave_height": 1.56,
-            "wave_period": 6.3,
-            "weather_code": 3,
+            "apparent_temperature": 31.6,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
             "choveu_8_horas": false,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.1,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -901,20 +3967,166 @@
             -43.075238
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.3,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.5,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
             "relative_humidity_2m": 72,
-            "apparent_temperature": 26.2,
-            "wind_speed_10m": 9.8,
-            "wind_direction_10m": 96,
-            "uv_index": 0.0,
-            "wave_height": 2.3,
-            "wave_period": 6.45,
-            "weather_code": 3,
+            "apparent_temperature": 31.6,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
             "choveu_8_horas": false,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.1,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -943,20 +4155,166 @@
             -43.069852
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.2,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.3,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
             "relative_humidity_2m": 72,
-            "apparent_temperature": 26.0,
-            "wind_speed_10m": 9.8,
-            "wind_direction_10m": 96,
-            "uv_index": 0.0,
-            "wave_height": 2.3,
-            "wave_period": 6.45,
-            "weather_code": 3,
+            "apparent_temperature": 31.3,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
             "choveu_8_horas": false,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 26.9,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.1,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 28.8,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.1,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.3,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.3,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.0,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.2,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.6,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.2,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 28.9,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -985,20 +4343,166 @@
             -43.05776
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.2,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.4,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 75,
-            "apparent_temperature": 25.0,
-            "wind_speed_10m": 19.3,
-            "wind_direction_10m": 81,
-            "uv_index": 0.0,
-            "wave_height": 2.3,
-            "wave_period": 6.45,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.5,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.76,
+            "wave_period": 9.1,
+            "weather_code": 2,
             "choveu_8_horas": false,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.4,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 26.9,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.1,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 28.9,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.1,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.1,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.3,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.6,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.2,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -1027,20 +4531,166 @@
             -43.048199
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.3,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.5,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 75,
-            "apparent_temperature": 25.1,
-            "wind_speed_10m": 19.3,
-            "wind_direction_10m": 81,
-            "uv_index": 0.0,
-            "wave_height": 2.3,
-            "wave_period": 6.45,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.6,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.94,
+            "wave_period": 8.9,
+            "weather_code": 2,
             "choveu_8_horas": false,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.1,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -1069,20 +4719,166 @@
             -43.046871
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.3,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.5,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 75,
-            "apparent_temperature": 25.1,
-            "wind_speed_10m": 19.3,
-            "wind_direction_10m": 81,
-            "uv_index": 0.0,
-            "wave_height": 2.3,
-            "wave_period": 6.45,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.6,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.94,
+            "wave_period": 8.9,
+            "weather_code": 2,
             "choveu_8_horas": false,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.1,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -1111,20 +4907,166 @@
             -43.045586
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.3,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.5,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 75,
-            "apparent_temperature": 25.1,
-            "wind_speed_10m": 19.3,
-            "wind_direction_10m": 81,
-            "uv_index": 0.0,
-            "wave_height": 2.3,
-            "wave_period": 6.45,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.6,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.94,
+            "wave_period": 8.9,
+            "weather_code": 2,
             "choveu_8_horas": false,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.1,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.6,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.5,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.1,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -1153,20 +5095,166 @@
             -43.036233
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.2,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.4,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 75,
-            "apparent_temperature": 25.0,
-            "wind_speed_10m": 19.3,
-            "wind_direction_10m": 81,
-            "uv_index": 0.0,
-            "wave_height": 2.3,
-            "wave_period": 6.45,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.5,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.94,
+            "wave_period": 8.9,
+            "weather_code": 2,
             "choveu_8_horas": false,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.4,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 26.9,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 28.9,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.1,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.3,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {
@@ -1195,20 +5283,166 @@
             -43.030642
         ],
         "leitura_atual": {
-            "timestamp": "2025-10-03T20:00",
-            "temperature_2m": 24.2,
+            "timestamp": "2025-12-14T19:00",
+            "temperature_2m": 27.4,
             "precipitation": 0.0,
-            "precipitation_probability": 0,
+            "precipitation_probability": 3,
             "rain": 0.0,
-            "relative_humidity_2m": 75,
-            "apparent_temperature": 25.0,
-            "wind_speed_10m": 19.3,
-            "wind_direction_10m": 81,
-            "uv_index": 0.0,
-            "wave_height": 2.3,
-            "wave_period": 6.45,
-            "weather_code": 3,
+            "relative_humidity_2m": 72,
+            "apparent_temperature": 31.5,
+            "wind_speed_10m": 5.4,
+            "wind_direction_10m": 132,
+            "uv_index": 0.05,
+            "wave_height": 0.94,
+            "wave_period": 8.9,
+            "weather_code": 2,
             "choveu_8_horas": false,
+            "previsao_24h": [
+                {
+                    "hora": "2025-12-14T19:00",
+                    "temperatura": 27.4,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T20:00",
+                    "temperatura": 27.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-14T21:00",
+                    "temperatura": 27.2,
+                    "precipitacao_prob": 10,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T22:00",
+                    "temperatura": 27.0,
+                    "precipitacao_prob": 15,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-14T23:00",
+                    "temperatura": 26.9,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T00:00",
+                    "temperatura": 26.8,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T01:00",
+                    "temperatura": 26.7,
+                    "precipitacao_prob": 5,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T02:00",
+                    "temperatura": 26.5,
+                    "precipitacao_prob": 3,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T03:00",
+                    "temperatura": 26.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T04:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T05:00",
+                    "temperatura": 26.2,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T06:00",
+                    "temperatura": 26.3,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T07:00",
+                    "temperatura": 27.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T08:00",
+                    "temperatura": 28.9,
+                    "precipitacao_prob": 0,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T09:00",
+                    "temperatura": 30.4,
+                    "precipitacao_prob": 0,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T10:00",
+                    "temperatura": 31.2,
+                    "precipitacao_prob": 3,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T11:00",
+                    "temperatura": 31.5,
+                    "precipitacao_prob": 23,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T12:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T13:00",
+                    "temperatura": 31.4,
+                    "precipitacao_prob": 50,
+                    "weather_code": 2
+                },
+                {
+                    "hora": "2025-12-15T14:00",
+                    "temperatura": 31.1,
+                    "precipitacao_prob": 55,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T15:00",
+                    "temperatura": 30.3,
+                    "precipitacao_prob": 48,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T16:00",
+                    "temperatura": 29.7,
+                    "precipitacao_prob": 33,
+                    "weather_code": 1
+                },
+                {
+                    "hora": "2025-12-15T17:00",
+                    "temperatura": 29.3,
+                    "precipitacao_prob": 33,
+                    "weather_code": 3
+                },
+                {
+                    "hora": "2025-12-15T18:00",
+                    "temperatura": 29.0,
+                    "precipitacao_prob": 30,
+                    "weather_code": 3
+                }
+            ],
             "balneabilidade": true
         },
         "avaliacao_media": {

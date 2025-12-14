@@ -2,13 +2,16 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
     container: {
-        backgroundColor: '#fafafa',
+        // backgroundColor removed, handled by LinearGradient
         width: '85%',
-        height: 90,
-        borderRadius: 12,
+        minHeight: 90,
+        borderRadius: 16,
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
+        borderWidth: 1,
+        borderColor: 'rgba(255, 255, 255, 0.3)',
+        paddingVertical: 12,
     },
     content: {
         flexDirection: 'row',
@@ -19,12 +22,12 @@ export default StyleSheet.create({
     regularText: {
         fontSize: 14,
         fontWeight: '400',
-        color: '#454A4C',
+        color: 'rgba(147, 197, 253, 1)', // blue-200
     },
     boldText: {
         fontSize: 16,
-        fontWeight: '500',
-        color: '#454A4C',
+        fontWeight: '600',
+        color: '#FFFFFF',
     },
     textContainer: {
         flexDirection: 'column',
@@ -36,8 +39,8 @@ export default StyleSheet.create({
     },
     alertText: {
         fontSize: 9,
-        fontWeight: '500',
-        color: '#454A4C',
+        fontWeight: '600',
+        color: '#FFFFFF',
         textAlign: 'center',
         width: 70,
     },

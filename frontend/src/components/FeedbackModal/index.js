@@ -1,7 +1,8 @@
-import { Modal, View, Text, Pressable, Alert } from 'react-native';
+import { Modal, View, Text, Pressable, Alert, Animated } from 'react-native';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
+import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import styles from './styles';
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import { api } from '../../api/api';
 
@@ -13,6 +14,21 @@ export default function FeedbackModal({ visible, onClose, beachName, beachId, on
         seguranca: 0,
         tranquilidade: 0,
     });
+    const [showValidationError, setShowValidationError] = useState(false);
+    const slideAnim = useRef(new Animated.Value(0)).current;
+
+    useEffect(() => {
+        if (visible) {
+            Animated.spring(slideAnim, {
+                toValue: 1,
+                useNativeDriver: true,
+                tension: 65,
+                friction: 11,
+            }).start();
+        } else {
+            slideAnim.setValue(0);
+        }
+    }, [visible]);
 
     const atributos = [
         { key: 'limpeza', label: 'Limpeza' },
@@ -27,6 +43,7 @@ export default function FeedbackModal({ visible, onClose, beachName, beachId, on
             ...prev,
             [atributo]: value
         }));
+        setShowValidationError(false);
     };
 
     const handleSendFeedback = async () => {
@@ -34,7 +51,7 @@ export default function FeedbackModal({ visible, onClose, beachName, beachId, on
             // Check if all criteria have been rated
             const allRated = Object.values(feedback).every(rating => rating > 0);
             if (!allRated) {
-                Alert.alert('Erro', 'Por favor, avalie todos os critérios antes de enviar.');
+                setShowValidationError(true);
                 return;
             }
 
@@ -74,27 +91,55 @@ export default function FeedbackModal({ visible, onClose, beachName, beachId, on
         }
     };
 
+    const handleClose = () => {
+        setShowValidationError(false);
+        setFeedback({
+            limpeza: 0,
+            acessibilidade: 0,
+            infraestrutura: 0,
+            seguranca: 0,
+            tranquilidade: 0,
+        });
+        onClose();
+    };
+
     return (
         <Modal
             visible={visible}
             transparent
-            animationType="none"
-            onRequestClose={onClose}
+            animationType="fade"
+            onRequestClose={handleClose}
         >
             <Pressable
-                style={{
-                    flex: 1,
-                    backgroundColor: 'rgba(0,0,0,0.4)',
-                    justifyContent: 'center',
-                    alignItems: 'center'
-                }}
-                onPress={onClose}
+                style={styles.overlay}
+                onPress={handleClose}
             >
-                <View
-                    style={styles.container}
-                    pointerEvents="box-none"
+                <Animated.View
+                    style={[
+                        styles.container,
+                        {
+                            transform: [{
+                                translateY: slideAnim.interpolate({
+                                    inputRange: [0, 1],
+                                    outputRange: [300, 0]
+                                })
+                            }]
+                        }
+                    ]}
+                    onStartShouldSetResponder={() => true}
                 >
-                    <Text style={styles.feedbackTitle}>Avalie a {beachName}</Text>
+                    <View style={styles.handle} />
+                    <Text style={styles.feedbackTitle}>Sua Avaliação</Text>
+                    
+                    {showValidationError && (
+                        <View style={styles.validationError}>
+                            <FontAwesome6 name="circle-exclamation" size={16} color="#FCA5A5" />
+                            <Text style={styles.validationErrorText}>
+                                Por favor, avalie todas as 5 categorias antes de enviar.
+                            </Text>
+                        </View>
+                    )}
+                    
                     <View style={styles.atributesContainer}>
                         {atributos.map(attr => (
                             <View style={styles.atributeContainer} key={attr.key}>
@@ -108,8 +153,8 @@ export default function FeedbackModal({ visible, onClose, beachName, beachId, on
                                         >
                                             <FontAwesome
                                                 name="star"
-                                                size={26}
-                                                color={feedback[attr.key] >= star ? "#FFD700" : "#C4C4C4"}
+                                                size={24}
+                                                color={feedback[attr.key] >= star ? "#FBBF24" : "#4B5563"}
                                             />
                                         </Pressable>
                                     ))}
@@ -123,9 +168,9 @@ export default function FeedbackModal({ visible, onClose, beachName, beachId, on
                                 styles.closeButton,
                                 pressed ? { opacity: 0.8 } : null
                             ]}
-                            onPress={onClose}
+                            onPress={handleClose}
                         >
-                            <Text style={styles.closeButtonText}>Fechar</Text>
+                            <Text style={styles.closeButtonText}>Cancelar</Text>
                         </Pressable>
                         <Pressable
                             style={({ pressed }) => [
@@ -137,7 +182,7 @@ export default function FeedbackModal({ visible, onClose, beachName, beachId, on
                             <Text style={styles.buttonText}>Enviar</Text>
                         </Pressable>
                     </View>
-                </View>
+                </Animated.View>
             </Pressable>
         </Modal>
     );

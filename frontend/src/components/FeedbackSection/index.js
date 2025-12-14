@@ -1,5 +1,6 @@
 import { View, Text, Pressable } from 'react-native';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
+import { LinearGradient } from 'expo-linear-gradient';
 import styles from './styles';
 
 export default function FeedbackSection({ onPress, averageRatings }) {
@@ -19,7 +20,12 @@ export default function FeedbackSection({ onPress, averageRatings }) {
   };
 
   return (
-    <View style={styles.container}>
+    <LinearGradient
+        colors={['rgba(255, 255, 255, 0.2)', 'rgba(255, 255, 255, 0.05)']}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={styles.container}
+    >
         <Text style={styles.feedbackTitle}>Avaliação dos Usuários</Text>
         <View style={styles.atributesContainer}>
             <View style={styles.atributeContainer}>
@@ -62,6 +68,6 @@ export default function FeedbackSection({ onPress, averageRatings }) {
         >
             <Text style={styles.buttonText}>Envie uma avaliação!</Text>
         </Pressable>
-    </View>
+    </LinearGradient>
   );
 }
