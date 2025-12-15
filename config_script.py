@@ -119,20 +119,31 @@ def main():
         print("eas.json já existe.")
 
     # Segundo: Criar AndroidManifest.xml e network_security_config.xml se não existirem
-    if not os.path.exists(android_manifest_path):
-        shutil.copy(os.path.join(frontend_dir, "android", "app", "src", "main", "AndroidManifest.xml.base"), android_manifest_path)
-        print("AndroidManifest.xml criado.")
-    else:
+    android_manifest_base_path = "AndroidManifest.xml.base"
+    if os.path.exists(android_manifest_base_path):
+        if not os.path.exists(android_manifest_path):
+            os.rename(android_manifest_base_path, android_manifest_path)
+            print("AndroidManifest.xml criado.")
+        else:
+            os.remove(android_manifest_base_path)
+            print("AndroidManifest.xml já existe. Arquivo .base removido.")
+    elif os.path.exists(android_manifest_path):
         print("AndroidManifest.xml já existe.")
+    else:
+        print(f"Arquivo de exemplo não encontrado em {android_manifest_base_path}, pulando a criação de AndroidManifest.xml.")
 
     network_security_config_path = os.path.join(frontend_dir, "android", "app", "src", "main", "res", "xml", "network_security_config.xml")
-    if not os.path.exists(network_security_config_path):
-        exemplo_path = os.path.join(frontend_dir, "android", "app", "src", "main", "res", "xml", "network_security_config.xml.base")
-        if os.path.exists(exemplo_path):
-            shutil.copy(exemplo_path, network_security_config_path)
+    exemplo_path = "network_security_config.xml.base"
+
+    if os.path.exists(exemplo_path):
+        if not os.path.exists(network_security_config_path):
+            os.rename(exemplo_path, network_security_config_path)
             print("network_security_config.xml criado.")
         else:
-            print(f"Arquivo de exemplo não encontrado em {exemplo_path}, pulando a criação de network_security_config.xml.")
+            os.remove(exemplo_path)
+            print("network_security_config.xml já existe. Arquivo .base removido.")
+    elif not os.path.exists(network_security_config_path):
+        print(f"Arquivo de exemplo não encontrado em {exemplo_path}, pulando a criação de network_security_config.xml.")
     else:
         print("network_security_config.xml já existe.")
 
