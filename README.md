@@ -12,13 +12,7 @@ Para o front-end, assume-se que você possui Python 3, JDK 17, Android Studio, N
 
 ### Back-end
 
-1. Instale as dependências com `pip install -r requirements.txt`
-2. Na máquina que deseja usar como servidor, rode o script `start_mongo.bat` (Windows) ou `start_mongo.sh` (Linux).
-3. Rode `api_praiometro.py`
-4. Rode `praiometro_hourly.py`
-5. Rode `avaliador.py`
-6. No front-end, altere `frontend/src/api/api.js` com o IP da máquina que usará como servidor.
-7. No front-end, altere `frontend/android/app/src/main/res/xml/network_security_config.xml` para incluir o IP da máquina que será usada como servidor.
+1. Siga as instruções em https://github.com/Praiometro/praiometro-backend
 
 ### Front-end
 
@@ -114,12 +108,16 @@ Isso abrirá um app para se conectar ao servidor de desenvolvimento, mas antes d
 
 #### 5. Gerar o APK
 
-Antes de executar esse comando, lembre-se de verificar se a key da API do Google Maps em `AndroidManifest.xml` está escrita como `@string/google_maps_api_ke`. Este comando enviará seu projeto para os servidores da Expo para a build:
+Caso use Linux:
+```bash
+eas build --platform android --profile production --local
+```
+Após a conclusão, o arquivo APK aparecerá na pasta do projeto. 
 
+Caso use Windows:
 ```bash
 eas build --platform android --profile production
 ```
-
 Após a conclusão, você receberá um link para baixar o arquivo APK. 
 
 > [!TIP]
