@@ -118,10 +118,7 @@ Caso use Windows:
 ```bash
 eas build --platform android --profile production
 ```
-Após a conclusão, você receberá um link para baixar o arquivo APK. 
-
-> [!TIP]
-> Você pode executar `config_script.py` para reverter o campo da key em Android `AndroidManifest.xml`
+Após a conclusão, você receberá um link para baixar o arquivo APK.
 
 #### 6. Executando APK no emulador
 
