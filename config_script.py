@@ -122,11 +122,10 @@ def main():
     android_manifest_base_path = "AndroidManifest.xml.base"
     if os.path.exists(android_manifest_base_path):
         if not os.path.exists(android_manifest_path):
-            os.rename(android_manifest_base_path, android_manifest_path)
+            shutil.copy(android_manifest_base_path, android_manifest_path)
             print("AndroidManifest.xml criado.")
         else:
-            os.remove(android_manifest_base_path)
-            print("AndroidManifest.xml já existe. Arquivo .base removido.")
+            print("AndroidManifest.xml já existe.")
     elif os.path.exists(android_manifest_path):
         print("AndroidManifest.xml já existe.")
     else:
@@ -137,11 +136,10 @@ def main():
 
     if os.path.exists(exemplo_path):
         if not os.path.exists(network_security_config_path):
-            os.rename(exemplo_path, network_security_config_path)
+            shutil.copy(exemplo_path, network_security_config_path)
             print("network_security_config.xml criado.")
         else:
-            os.remove(exemplo_path)
-            print("network_security_config.xml já existe. Arquivo .base removido.")
+            print("network_security_config.xml já existe.")
     elif not os.path.exists(network_security_config_path):
         print(f"Arquivo de exemplo não encontrado em {exemplo_path}, pulando a criação de network_security_config.xml.")
     else:
