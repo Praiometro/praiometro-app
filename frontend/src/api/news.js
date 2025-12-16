@@ -8,37 +8,59 @@ const parser = new XMLParser({
 
 const RSS_FEEDS = [
     { url: 'https://niteroi.rj.gov.br/feed/', source: 'Prefeitura de Niterói' },
-    { url: 'https://enfoco.com.br/feed/', source: 'Enfoco' }
+    { url: 'https://enfoco.com.br/feed/', source: 'Enfoco' },
+    { url: 'https://niteroinews.com.br/feed/', source: 'Niterói News' },
+    { url: 'https://aseguirniteroi.com.br/categoria-de-noticia/noticias/feed/', source: 'A Seguir Niterói' },
+    { url: 'https://g1.globo.com/rss/g1/rj/rio-de-janeiro/', source: 'G1 - Rio de Janeiro' }
 ];
 
 // Palavras-chave para buscar APENAS no título
 const TITLE_KEYWORDS = [
     'praia', 'praias', 'orla',
-    'balneabilidade',
-    'banhista', 'banhistas',
+    'balneabilidade', 'pesca',
+    'pesqueiro', 'pesqueira',
+    'navio', 'barco', 'barcos',
+    'navios', 'pesqueiros',
+    'pesqueiras', 'sol', 'indice UV',
+    'banhista', 'banhistas', 
     'surf', 'surfista', 'surfistas',
-    'naufragio',
+    'naufragio', 'onda de calor',
+    'frente fria', 'ondas', 'onda',
     'reveillon', 'ano novo',
     'previsao do tempo', 'previsao para',
     'tempo no rio', 'tempo em niteroi',
-    'ressaca', 'ondas', 'mar agitado'
+    'clima no rio', 'clima em niteroi',
+    'baía de guanabara', 'baia de guanabara',
+    'ressaca', 'mar agitado',
+    'praia de icarai', 'praia de itacoatiara', 'praia de piratininga', 
+    'praia de camboinhas', 'praia de itaipu', 'praia de charitas',
+    'praia de sao francisco', 'praia de jurujuba', 'praia de boa viagem', 
+    'praia da gragoata', 'praia vermelha', 'praia de adao',
+    'praia de eva', 'praia das flechas', 'praia de sao charitas',
+    'praia de piratininga', 'praia do sossego', 'praia de niteroi',
+    'praias de niteroi', 'praias do rio', 'praia do rio', 'atividade na praia', 
+    'atividades na praia', 'festa na praia', 'show na praia', 'virada na praia'
 ];
 
 // Palavras-chave para buscar no conteúdo completo
 const CONTENT_KEYWORDS = [
-    'praia de icarai', 'praia de itacoatiara', 'praia de piratininga', 
+    'indice UV', 'praia de icarai', 'praia de itacoatiara', 'praia de piratininga', 
     'praia de camboinhas', 'praia de itaipu', 'praia de charitas',
     'praia de sao francisco', 'praia de jurujuba', 'praia de boa viagem', 
-    'praia da gragoata', 'praia do flamengo', 'praia de copacabana',
-    'praias de niteroi', 'praias do rio',
-    'festa na praia', 'show na praia', 'virada na praia'
+    'praia da gragoata', 'praia vermelha', 'praia de adao',
+    'praia de eva', 'praia das flechas', 'praia de sao charitas',
+    'praia de piratininga', 'praia do sossego', 'praia de niteroi',
+    'praias de niteroi', 'praias do rio', 'praia do rio', 'atividade na praia', 
+    'atividades na praia', 'festa na praia', 'show na praia', 'virada na praia'
 ];
 
 // Rejeitar mesmo se houver correspondência de palavras-chave
 const BLACKLIST = [
-    'economia solidaria', 'bolsa familia', 'auxilio', 'beneficio',
-    'agricultura familiar', 'seguro defeso', 'maternidade', 'delegacia',
-    'tiroteio', 'assalto', 'crime', 'homicidio', 'assassinato'
+    'economia solidaria', 'bolsa familia', 'auxilio', 'beneficio', 'solidario',
+    'solidaria', 'solidariedade', 'solucao', 'soluvel', 'soluveis', 'agricultura familiar',
+    'seguro defeso', 'maternidade', 'delegacia', 'tiroteio', 'assalto', 'crime', 'homicidio',
+    'assassinato', 'seguro', 'defeso', 'segura', 'defesa', 'violencia', 'morte', 'morre',
+    'operacao', 'crime', 'copacabana', 'acidente', 'aluguel', 'roubo', 'imovel', 'imoveis'
 ];
 
 const normalizeText = (text) => {
