@@ -11,7 +11,8 @@ const RSS_FEEDS = [
     { url: 'https://enfoco.com.br/feed/', source: 'Enfoco' },
     { url: 'https://niteroinews.com.br/feed/', source: 'Niterói News' },
     { url: 'https://aseguirniteroi.com.br/categoria-de-noticia/noticias/feed/', source: 'A Seguir Niterói' },
-    { url: 'https://g1.globo.com/rss/g1/rj/rio-de-janeiro/', source: 'G1 - Rio de Janeiro' }
+    { url: 'https://g1.globo.com/rss/g1/rj/rio-de-janeiro/', source: 'G1 - Rio de Janeiro' },
+    //{ url: 'https://g1.globo.com/rss/g1/rj/', source: 'G1 - RJ' }
 ];
 
 // Palavras-chave para buscar APENAS no título
@@ -60,7 +61,9 @@ const BLACKLIST = [
     'solidaria', 'solidariedade', 'solucao', 'soluvel', 'soluveis', 'agricultura familiar',
     'seguro defeso', 'maternidade', 'delegacia', 'tiroteio', 'assalto', 'crime', 'homicidio',
     'assassinato', 'seguro', 'defeso', 'segura', 'defesa', 'violencia', 'morte', 'morre',
-    'operacao', 'crime', 'copacabana', 'acidente', 'aluguel', 'roubo', 'imovel', 'imoveis'
+    'operacao', 'crime', 'copacabana', 'acidente', 'aluguel', 'roubo', 'imovel', 'imoveis',
+    'droga', 'preso', 'sequestro', 'sequestra', 'sequestrada', 'sequestrado', 'assassinato',
+    'assassino', 'assassina', 'assassinar', 'golpe'
 ];
 
 const normalizeText = (text) => {
