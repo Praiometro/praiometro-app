@@ -10,6 +10,7 @@ import Praia from './screens/Praia';
 import Clima from './screens/Clima';
 import CustomHeader from './components/CustomHeader';
 import SobreNos from './screens/SobreNos';
+import Noticias from './screens/Noticias';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const Stack = createNativeStackNavigator();
@@ -56,7 +57,10 @@ function MainTabs() {
             return <FontAwesome5 name="cloud-sun" size={24} color={color} />;
           } else if (route.name === 'SobreNos') {
             return <Entypo name="light-bulb" size={26} color={color} />;
+          } else if (route.name === 'Noticias') {
+            return <FontAwesome6 name="newspaper" size={24} color={color} />;
           }
+
           return null;
         },
       })}
@@ -73,6 +77,7 @@ function MainTabs() {
         })}
       />
       <Tab.Screen name='Clima' component={Clima} />
+      <Tab.Screen name='Noticias' component={Noticias} />
       <Tab.Screen name='SobreNos' component={SobreNos} />
     </Tab.Navigator>
   );

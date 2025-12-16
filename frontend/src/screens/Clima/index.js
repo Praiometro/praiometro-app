@@ -121,6 +121,7 @@ export default function Clima() {
                         windSpeed={weather.wind_speed_10m}
                         windDirection={weather.wind_direction_10m}
                         compact={true}
+                        style={styles.flexCard}
                     />
                 </View>
                 <WeatherForecast previsao={weather.previsao_24h} />

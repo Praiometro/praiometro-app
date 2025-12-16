@@ -3,14 +3,6 @@ import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import { LinearGradient } from 'expo-linear-gradient';
 import styles from './styles';
 
-function getUVRisk(uvIndex) {
-    if (uvIndex == null) return { level: 'N/A', color: '#9CA3AF', bgColor: 'rgba(156, 163, 175, 0.2)' };
-    if (uvIndex <= 2) return { level: 'BAIXO', color: '#22C55E', bgColor: 'rgba(34, 197, 94, 0.2)' };
-    if (uvIndex <= 5) return { level: 'MODERADO', color: '#EAB308', bgColor: 'rgba(234, 179, 8, 0.2)' };
-    if (uvIndex <= 7) return { level: 'ALTO', color: '#F97316', bgColor: 'rgba(249, 115, 22, 0.2)' };
-    if (uvIndex <= 10) return { level: 'MUITO ALTO', color: '#EF4444', bgColor: 'rgba(239, 68, 68, 0.2)' };
-    return { level: 'EXTREMO', color: '#A855F7', bgColor: 'rgba(168, 85, 247, 0.2)' };
-}
 
 function getUVTip(uvIndex) {
     if (uvIndex == null) return 'Dados indisponíveis';
@@ -21,9 +13,58 @@ function getUVTip(uvIndex) {
     return 'Evite exposição ao sol entre 10h-16h';
 }
 
+function getUVStatusType(uvIndex) {
+    if (uvIndex == null) return 'unknown';
+    if (uvIndex <= 2) return 'safe';
+
+    if (uvIndex <= 7) return 'warning'; 
+    return 'danger';
+}
+
+function getUVRiskLabel(uvIndex) {
+     if (uvIndex == null) return 'N/A';
+     if (uvIndex <= 2) return 'BAIXO';
+     if (uvIndex <= 5) return 'MODERADO';
+     if (uvIndex <= 7) return 'ALTO';
+     if (uvIndex <= 10) return 'MUITO ALTO';
+     return 'EXTREMO';
+}
+
 export default function UVInfoPanel({ uvIndex, style, showBar = true }) {
-    const { level, color, bgColor } = getUVRisk(uvIndex);
     const tip = getUVTip(uvIndex);
+    const type = getUVStatusType(uvIndex);
+    const level = getUVRiskLabel(uvIndex);
+
+    let badgeStyle = {};
+    let badgeTextStyle = {};
+    let iconName = "circle-question";
+    let iconColor = "#9CA3AF";
+
+
+    if (type === 'safe') {
+        badgeStyle = { backgroundColor: 'rgba(34, 197, 94, 0.2)', borderColor: 'rgba(34, 197, 94, 0.3)' };
+        badgeTextStyle = { color: '#86EFAC' };
+        iconColor = '#86EFAC';
+        iconName = 'check';
+    } else if (type === 'warning') {
+        badgeStyle = { backgroundColor: 'rgba(234, 179, 8, 0.2)', borderColor: 'rgba(234, 179, 8, 0.3)' };
+        badgeTextStyle = { color: '#FDE047' };
+        iconColor = '#FDE047';
+        iconName = 'triangle-exclamation';
+    } else if (type === 'danger') {
+        badgeStyle = { backgroundColor: 'rgba(239, 68, 68, 0.2)', borderColor: 'rgba(239, 68, 68, 0.3)' };
+        badgeTextStyle = { color: '#FCA5A5' };
+        iconColor = '#FCA5A5';
+        if (uvIndex > 7) iconName = 'fire'; 
+ 
+
+        iconName = 'fire'; 
+    } else {
+            badgeStyle = { backgroundColor: 'rgba(107, 114, 128, 0.2)', borderColor: 'rgba(107, 114, 128, 0.3)' };
+            badgeTextStyle = { color: '#9CA3AF' }; 
+            iconColor = '#9CA3AF';
+            iconName = 'minus';
+    }
 
     return (
         <LinearGradient
@@ -38,16 +79,17 @@ export default function UVInfoPanel({ uvIndex, style, showBar = true }) {
                     <FontAwesome6 name="sun" size={20} color="#FBBF24" />
                 </View>
                 
+                <View style={[styles.badge, badgeStyle]}>
+                    <FontAwesome6 
+                        name={iconName} 
+                        size={8} 
+                        color={iconColor} 
+                    />
+                    <Text style={[styles.badgeText, badgeTextStyle]}>{level}</Text>
+                </View>
+
                 <View style={styles.valueRow}>
                     <Text style={styles.value}>{uvIndex ?? '-'}</Text>
-                    <View style={[styles.badge, { backgroundColor: bgColor, borderColor: color }]}>
-                        <FontAwesome6 
-                            name={uvIndex > 7 ? "fire" : "check"} 
-                            size={10} 
-                            color={color} 
-                        />
-                        <Text style={[styles.badgeText, { color }]}>{level}</Text>
-                    </View>
                 </View>
 
                 <View style={styles.tipRow}>
