@@ -30,7 +30,7 @@ function getWindDirection(degrees) {
     return dir ? `${dir.name} (${dir.abbr})` : 'N/A';
 }
 
-export default function WindInfoCard({ windSpeed, windDirection, compact = false }) {
+export default function WindInfoCard({ windSpeed, windDirection, compact = false, style }) {
     const { level, type } = getWindStatus(windSpeed);
     const directionText = getWindDirection(windDirection);
     
@@ -39,9 +39,9 @@ export default function WindInfoCard({ windSpeed, windDirection, compact = false
             colors={['rgba(255, 255, 255, 0.2)', 'rgba(255, 255, 255, 0.05)']}
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 1 }}
-            style={styles.container}
+            style={[compact ? styles.containerCompact : styles.container, style]}
         >
-            <View style={styles.header}>
+            <View style={compact ? styles.headerCompact : styles.header}>
                 <Text style={compact ? styles.titleCompact : styles.title}>VENTO</Text>
                 <Feather name="wind" size={compact ? 24 : 28} color="#93C5FD" />
             </View>

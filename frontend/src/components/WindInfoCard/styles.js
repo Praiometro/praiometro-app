@@ -3,7 +3,6 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
     container: {
         flex: 1,
-        // backgroundColor removed, handled by LinearGradient
         borderRadius: 16,
         padding: 14,
         borderWidth: 1,
@@ -11,19 +10,34 @@ export default StyleSheet.create({
         minHeight: 130,
         justifyContent: 'space-between',
     },
+    containerCompact: {
+        flex: 1,
+        borderRadius: 16,
+        padding: 16, 
+        borderWidth: 1,
+        borderColor: 'rgba(255, 255, 255, 0.3)',
+        minHeight: 130,
+
+    },
     header: {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'flex-start',
     },
+    headerCompact: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        gap: 8,
+        marginBottom: 8,
+    },
     title: {
         fontSize: 11,
         fontWeight: '700',
-        color: 'rgba(147, 197, 253, 1)', // blue-200
+        color: 'rgba(147, 197, 253, 1)',
         textTransform: 'uppercase',
     },
     titleCompact: {
-        fontSize: 11,
+        fontSize: 12, 
         fontWeight: '700',
         color: 'rgba(147, 197, 253, 1)',
         textTransform: 'uppercase',
@@ -33,8 +47,7 @@ export default StyleSheet.create({
         justifyContent: 'flex-end',
     },
     contentCompact: {
-        flex: 1,
-        justifyContent: 'center',
+
     },
     badge: {
         flexDirection: 'row',
@@ -68,18 +81,19 @@ export default StyleSheet.create({
         fontWeight: '700',
     },
     badgeTextSafe: {
-        color: '#86EFAC', // green-300
+        color: '#86EFAC',
     },
     badgeTextWarning: {
-        color: '#FDE047', // yellow-300
+        color: '#FDE047',
     },
     badgeTextDanger: {
-        color: '#FCA5A5', // red-300
+        color: '#FCA5A5',
     },
     valueRow: {
         flexDirection: 'row',
         alignItems: 'baseline',
         gap: 4,
+        marginBottom: 8,
     },
     value: {
         fontSize: 28,
@@ -87,7 +101,7 @@ export default StyleSheet.create({
         color: '#FFFFFF',
     },
     valueCompact: {
-        fontSize: 32, // Increased from 22
+        fontSize: 36, 
         fontWeight: '700',
         color: '#FFFFFF',
     },
@@ -96,21 +110,21 @@ export default StyleSheet.create({
         color: 'rgba(147, 197, 253, 1)',
     },
     unitCompact: {
-        fontSize: 14, // Increased from 12
+        fontSize: 14, 
         color: 'rgba(147, 197, 253, 1)',
     },
     detailRow: {
         flexDirection: 'row',
         alignItems: 'center',
         gap: 4,
-        marginTop: 6,
+
     },
     detailText: {
         fontSize: 12,
         color: 'rgba(147, 197, 253, 1)',
     },
     detailTextCompact: {
-        fontSize: 11, // Increased from 10
+        fontSize: 13, 
         color: 'rgba(147, 197, 253, 1)',
     },
 });

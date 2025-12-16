@@ -41,10 +41,11 @@ export default StyleSheet.create({
     badge: {
         flexDirection: 'row',
         alignItems: 'center',
+        alignSelf: 'flex-start',
         gap: 4,
         paddingHorizontal: 8,
-        paddingVertical: 4,
-        borderRadius: 6,
+        paddingVertical: 3,
+        borderRadius: 4,
         borderWidth: 1,
         marginBottom: 6,
     },

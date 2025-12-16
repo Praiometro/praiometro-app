@@ -44,8 +44,8 @@ export default StyleSheet.create({
     },
     flexCard: {
         flex: 1,
-        width: 'auto', // Override fixed width
-        minHeight: 180, // Ensure enough height for UV content stacked
+        width: 'auto',
+        minHeight: 180,
     },
     fullScreen: {
         flex: 1,
