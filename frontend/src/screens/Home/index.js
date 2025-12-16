@@ -21,7 +21,7 @@ import FC001 from '../../../assets/images/marcadores/FC001.svg';
 import GR000 from '../../../assets/images/marcadores/GR000.svg';
 import IA000 from '../../../assets/images/marcadores/IA000.svg';
 import IA001 from '../../../assets/images/marcadores/IA001.svg';
-import IC00 from '../../../assets/images/marcadores/IC00.svg';
+import IC000 from '../../../assets/images/marcadores/IC00.svg';
 import IC001 from '../../../assets/images/marcadores/IC001.svg';
 import IC002 from '../../../assets/images/marcadores/IC002.svg';
 import IC003 from '../../../assets/images/marcadores/IC003.svg';
