@@ -3,6 +3,7 @@ import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import { useEffect } from 'react';
 import Constants from 'expo-constants';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
     useEffect(() => {
@@ -13,6 +14,7 @@ export default function App() {
 
     return (
         <SafeAreaProvider>
+            <StatusBar style="light" />
             <StackNavigator />
         </SafeAreaProvider>
     );
